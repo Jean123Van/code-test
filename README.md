@@ -19,6 +19,6 @@
 
 1. Create new note with POST request at /notes. Pass JSON object with values title and body as body. Example {"title": "Title", "body": "Body"}.
 2. Get all notes with GET request at /notes.
-3. Get one note with GET request at /notes/<noteid>. noteid is the id property of the note from getting all notes. Refer to number 2 of this list.
-4. Edit a note with PUT request at /notes/<noteid>. Pass JSON object with values title and body as body. Example {"title": "Title", "body": "Body"}
-5. Delete a note with DELETE request at /notes/<noteid>.
+3. Get one note with GET request at /notes/:noteid. noteid is the id property of the note from getting all notes. Refer to number 2 of this list.
+4. Edit a note with PUT request at /notes/:noteid. Pass JSON object with values title and body as body. Example {"title": "Title", "body": "Body"}
+5. Delete a note with DELETE request at /notes/:noteid.
