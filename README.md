@@ -12,8 +12,7 @@
 
 1. Clone repo
 2. Run "npm install"
-3. Add this line to package.json inside scripts: "start":"npx tsc-watch --onsuccess \"node dist/server/js\""
-4. Run "npm run start" to start application
+3. Run "npm run start" to start application
 
 ## How to use
 
